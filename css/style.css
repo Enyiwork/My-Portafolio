@@ -1,0 +1,211 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+  color:#F0F0F0;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:3.5em;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgba(0,0,0, 100);
+  text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:#cfcfcf;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2em;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgba(0,0,0, 100);
+}
+
+.about-background {
+  height: 855px;
+  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+  background: url('https://farm4.staticflickr.com/3824/11123530043_632af83dd8_b.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+}
+
+.portafolio-background {
+    height: 855px;
+    text-align: center;
+    background: url('https://farm3.staticflickr.com/2944/15184528727_084715d318_b.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.contact-background {
+    height: 600px;
+    text-align: center;
+    background: url('http://photos02.wisgoon.com/media/pin/images/o/2013/10/1380909950741273.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.bg-overlay {
+  background:rgba(0,0,0, 0.35);
+  height: 855px;
+}
+
+.bg-overlay-contact {
+  background:rgba(0,0,0, 0.35);
+  height: 600px;
+}
+
+.about-message {
+    position: relative;
+    padding-top: 53;
+    padding-bottom: 2%;
+}
+
+.common-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.portafolio-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+
+.btn {
+  color: #FFF;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0,0,0, 0.9);
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  transition: 0.2s;
+  border-radius:50%;
+  width:80px;
+  height:80px;
+  margin:15px;
+  padding-top: 25px;
+}
+
+.btn:hover {
+	color: #000;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: #C0C0C0;
+  transform:scale(1.1);
+  transition: 0.2s;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.btn-text{
+  display:block;
+  color: #FFF;
+  text-shadow: 2px 2px 2px rgba(0,0,0, 100);
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:1.3em;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.sameline{
+  style="display:inline-block";
+}
+
+.img-profile{
+  width:300px;
+  height:340px;
+  border-radius:50%;
+  float:left;
+  clear:left;
+  margin:0px 50px 0px 0px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+
+}
+
+.text-profile-title{
+  color:#e0e0e0;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2em;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgba(0,0,0, 100);
+
+}
+
+.text-profile-comment{
+  color:#f5f5f5;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px rgba(0,0,0, 100);
+
+}
+
+/* Portfolio */
+
+.portafolio
+{
+  color:white;
+  margin:50px 0px 0px 0px;
+  display: block;
+  position: relative;
+  width:250px;
+  height:250px;
+}
+
+.portafolio-content
+{
+  background-color:#A0A0A0;
+  margin:-70px 0 0 0;
+  padding:5px
+}
+
+.item-portafolio
+{
+  position: absolute;
+  opacity: 0;
+  width:100%;
+  height:75%;
+  background-color:#471E55;
+  transition: all ease .5s;
+  cursor:pointer;
+}
+
+.item-portafolio-container
+{
+  margin:70px;
+}
+
+.item-portafolio:hover {
+  opacity: 0.8;
+}
+
+.btn2 {
+  float:right;
+  clear:right;
+  color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background-color: #471E55;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  transition: 0.2s;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  margin:0px;
+  padding-top:8px;
+  padding-left:14px;
+}
+
+.btn2:hover {
+	color: #000;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background-color: #ffffff;
+  transform:scale(1);
+  transition: 0.2s;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
