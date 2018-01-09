@@ -34,6 +34,10 @@ h6 {
   background-size: cover;
   height: 855px;
 }
+.container{
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
 .portafolio-background {
     height: 855px;
@@ -52,13 +56,15 @@ h6 {
 }
 
 .bg-overlay {
-  background:rgba(0,0,0, 0.35);
-  height: 855px;
+    background: rgba(0,0,0, 0.35);
+    height: 860px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .bg-overlay-contact {
-  background:rgba(0,0,0, 0.35);
-  height: 600px;
+    background: rgb(42, 61, 75);
+    height: 600px;
 }
 
 .about-message {
@@ -147,14 +153,14 @@ h6 {
 
 /* Portfolio */
 
-.portafolio img
+.portafolio
 {
   color:white;
   margin:50px 0px 0px 0px;
   display: block;
   position: relative;
   width:250px;
-
+  height:250px;
 }
 
 .portafolio-content
@@ -208,8 +214,4 @@ h6 {
   transform:scale(1);
   transition: 0.2s;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-}
-#boxshadow {
-    width: 250px;
-    border-radius: 5px;
 }
